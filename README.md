@@ -21,15 +21,16 @@ Check out an example of a local PyShiny project [here](https://github.com/denise
 1. Login to GitHub and navigate to Repositories.
 2. Create a new project repo named `cintel-04-local` with a default `README.md` and a default `.gitignore` for Python.
 3. Add a file named `requirements.txt` with the following packages:
-faicons
-palmerpenguins
-pandas
-pyarrow
-plotly
-seaborn
-shiny
-shinylive
-shinywidgets
+   
+- faicons
+- palmerpenguins
+- pandas
+- pyarrow
+- plotly
+- seaborn
+- shiny
+- shinylive
+- shinywidgets
 
 4. Add a file named `app.py` (exactly!) and paste in the content from your P3 Shiny `app.py`. Commit the changes.
 
@@ -49,8 +50,9 @@ shinywidgets
 ### Verify Installation
 
 - **Windows:** Open PowerShell and run the following commands:
+```bash
 python --version
 py --version
 py -m pip --version
-
+```
 
