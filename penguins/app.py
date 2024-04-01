@@ -55,7 +55,7 @@ with ui.layout_columns():
 
         @render.data_frame
         def penguin_datatable():
-            return render.DataTable(penguins_df)
+            return render.DataTable(filtered_data())
 
     # Data Grid card
     with ui.card():
@@ -63,7 +63,7 @@ with ui.layout_columns():
 
         @render.data_frame
         def penguin_datagrid():
-            return render.DataGrid(penguins_df)
+            return render.DataGrid(filtered_data())
 
 
 # Add a reactive calculation to filter the data
