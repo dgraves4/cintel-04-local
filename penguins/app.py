@@ -143,3 +143,4 @@ with ui.layout_columns():
                     labels={"bill_length_mm": "Average Bill Length (mm)"},
                 )
                 return grouped_bar
+
